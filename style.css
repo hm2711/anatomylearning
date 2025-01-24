@@ -1,0 +1,338 @@
+body {
+	color: black;
+	font-family: "arial";
+	font-size: 16px;
+	background-color: #babcbc;
+	margin-top:0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+body.pages {
+	background-color: white;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a.couleur {
+	text-decoration: none;
+    color: black;
+}
+
+a.couleur:hover, a.lien1:hover {
+    color: #527b9e;
+}
+
+div.entete, div.basdepage {
+	background-color: #babcbc;
+	color: black;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border: 13px solid #babcbc;
+}
+
+
+div.entete {
+	padding: 1px;
+}
+
+li#class {
+	display: table-cell;
+	text-align: center;
+}
+
+
+
+li.lien, li.lien1 {
+	text-align: center;
+}
+
+img.logofin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.entete2 {
+	color: black;
+	border: 1px solid #cfd0d1;
+	background-color: #cfd0d1;
+	padding: 1px;  
+	text-align: center;
+	font-size: 16px;
+}
+
+li.lien {
+	display: inline;
+}
+
+div#backcolor {
+	background-color: black;
+	color: white;
+}
+
+@font-face {
+   font-family: nowBold;
+   src: url(now_bold.otf);
+}
+
+h2#titre1, h2.titre2, h2#demo {
+	font-family: nowBold;
+}
+
+
+img#corpsentier {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+h2#titre1 {
+	font-size: 27.4px;
+	position: absolute;
+	left: 760px;
+	top: 231px;
+}
+
+h2.titre2, h2#demo {
+	font-size: 27.4px;
+	text-align: center;
+	margin-bottom: 0px;
+	border: 1px solid white;
+}
+
+p#bienvenue1 {
+	position: absolute;
+	left: 900px;
+	top: 300px;
+	font-size: 17.5px;
+	text-align: center;
+}
+
+p.bienvenue2 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 2px;
+	border: 1px solid white;
+}
+
+p#parasimple1 {
+	position: absolute;
+	left: 561px;
+	top: 359px;
+	text-align: center;
+	font-size: 16px;
+}
+
+img#coeurpng {
+	position: absolute;
+	top: 470px;
+	left: 777px;
+}
+
+img#sysdig {
+	position: absolute;
+	top: 470px;
+	left: 977px;
+}
+
+img#poumonspng {
+	position: absolute;
+	top: 470px;
+	left: 1177px;
+}
+
+
+img#poumons, img#poumons01 {
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-right: 0px;
+}
+
+div#parainfo1 {
+	border: 2px solid #babcbc;
+	background-color: #babcbc;
+	border-radius: 60px;
+	padding: 25px;
+	width: 600px;
+	text-align: justify;
+}
+
+
+p#parainfo2 {
+	border: 2px solid #babcbc;
+	background-color: #babcbc;
+	border-radius: 60px;
+	padding: 25px;
+	width: 500px;
+	text-align: justify;
+}
+
+p#parainfo3 {
+	border: 2px solid #babcbc;
+	background-color: #babcbc;
+	border-radius: 60px;
+	padding: 25px;
+	width: 400px;
+	text-align: justify;
+}
+
+table#table1 {
+	border-spacing: 140px 0px;
+}
+
+table#table2 {
+	border-spacing: 70px 0px;
+}
+
+table#table3 {
+	border-spacing: 190px 0px;
+}
+
+div#marge {
+	margin-bottom: 25px;
+}
+
+div#marge2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+div#marge3 {
+	margin-top: 54px;
+	margin-bottom: 54px;
+}
+
+div#marge1 {
+	margin-bottom: 25px;
+	margin-left: 400px;
+}
+
+div#pagedefin {
+	text-align: justify;
+	border: 10px solid white;
+	margin-left: 480px;
+	margin-right: 480px;
+	margin-top: 84px;
+	margin-bottom: 84px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #babcbc;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+div#contactform {
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 50px;
+}
+
+p#contact1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+span#veineux {
+	color: #5887a5;
+}
+
+span#arteriel {
+	color: #f44d32;
+}
+
+img.retour {
+	margin-left: 75px;
+}
+
+img.profil {
+	margin-left: 1580px;
+}
+
+#progression {
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	align-items: center;
+}
+
+button#pseudo {
+	margin-left: 900px;
+	margin-right: 900px;
+	margin-top: 50px;
+}
+
+#cours123456 {
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.poumonD {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.poumonD .poumonD-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: 0px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.poumonD-text {
+	margin-left: 0px;
+	bottom: 400px;
+	left: 850px
+}
+
+.poumonD .poumonD-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.poumonD:hover .poumonD-text {
+	visibility: visible;
+	opacity: 1;
+}

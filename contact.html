@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Anatomy Learning </title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	
+	<body class="pages">
+		<header>
+			<div class="entete">
+				<a href="accueil.html"><img src="logo.png" alt="Logo Anatomy Learning" style="width:240px;height:55px;" class="logo"></a>
+				<a href="profil.html"><img src="profil.png" alt="Mon Profil" style="width:47px;height:47px;" class="profil"></a>
+			</div>
+			
+			<div class="entete2">
+				<ul>
+					<li class="lien" style="list-style-type:none;"><a href="accueil.html" class="couleur">Accueil</a> |  </li>
+					<li class="lien" style="list-style-type:none;"><a href="lecorpsentier.html" class="couleur">Le corps entier</a></li>
+				</ul>
+			</div>
+		</header>
+		
+		<p id="contact1">Pour toute suggestion ou demande d'information, nous vous invitons à remplir le formulaire ci-dessous.</p>
+
+		
+		<div id="contactform">
+		
+		<label for="nom">Nom :</label>
+		<input type="text" id="nom" name="firstname" required>
+
+		<label for="prenom">Prénom :</label>
+		<input type="text" id="prenom" name="lastname" required>
+		
+		<label for="mail">E-mail :</label>
+		<input type="text" id="mail" name="email" required>
+		
+		<label for="sujet">Votre message :</label>
+		<textarea id="sujet" name="sujet" style="height:200px" required></textarea>
+		
+		<input type="submit" value="Envoyer" onclick="envoyerMessage()" onsubmit="return validateForm()">
+		</div>
+		
+		<footer>
+			<div class="basdepage">
+				<ul>
+					<li class="lien1" style="list-style-type:none;"><a href="qsn.html" class="couleur">Qui sommes-nous ?</a></li>
+					<li class="lien1" style="list-style-type:none;"><a href="contact.html" class="couleur">Contact</a></li>
+				</ul>
+				<img src="logo.png" alt="Logo Anatomy Learning" style="width:240px;height:55px;" class="logofin">
+
+			</div>	
+		</footer>
+	</body>
+</html>
