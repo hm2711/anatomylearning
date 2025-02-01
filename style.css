@@ -34,6 +34,11 @@ div.entete, div.basdepage {
 	margin-bottom: 0px;
 	margin-top: 0px;
 	border: 13px solid #babcbc;
+	padding-left: 0px;
+}
+
+.basdepage > ul:nth-child(1) {
+	padding-left: 0px;
 }
 
 
@@ -104,6 +109,10 @@ h2.titre2, h2#demo {
 	text-align: center;
 	margin-bottom: 0px;
 	border: 1px solid white;
+}
+
+h2.titre2 {
+	text-shadow: #a4a4a4 0.1em 0.1em 0.2em;
 }
 
 p#bienvenue1 {
@@ -267,7 +276,7 @@ img.retour {
 }
 
 img.profil {
-	margin-left: 1580px;
+	margin-left: 1150px;
 }
 
 #progression {
@@ -280,14 +289,24 @@ img.profil {
 }
 
 button#pseudo {
-	margin-left: 900px;
-	margin-right: 900px;
 	margin-top: 50px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-top-width: 5px;
+	border-top-style: solid;
+	margin-left: 700px;
+	border-radius: 30px;
+	font-size: 16px;
+	box-shadow: 4px 4px 4px black;
 }
 
 #cours123456 {
-	margin-left: 600px;
-	margin-right: 600px;
+	margin-left: 550px;
+	margin-right: 550px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -308,9 +327,8 @@ button#pseudo {
 	padding: 5px 0;
 	position: absolute;
 	z-index: 1;
-	bottom: 125%;
 	left: 50%;
-	margin-left: 0px;
+	margin-left: 650px;
 	opacity: 0;
 	transition: opacity 0.3s;
 }
@@ -333,6 +351,316 @@ button#pseudo {
 }
 
 .poumonD:hover .poumonD-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.poumonG {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.poumonG .poumonG-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 770px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.poumonG-text {
+	margin-left: 0px;
+	bottom: 400px;
+	left: 850px
+}
+
+.poumonG .poumonG-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.poumonG:hover .poumonG-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.coeur {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.coeur .coeur-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 725px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.coeur-text {
+	margin-left: 0px;
+	bottom: 365px;
+	left: 850px
+}
+
+.coeur .coeur-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.coeur:hover .coeur-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.foie {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.foie .foie-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 670px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.foie-text {
+	margin-left: 0px;
+	bottom: 280px;
+	left: 850px
+}
+
+.foie .foie-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.foie:hover .foie-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.estomac {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.estomac .estomac-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 745px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.estomac-text {
+	margin-left: 0px;
+	bottom: 260px;
+	left: 850px
+}
+
+.estomac .estomac-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.estomac:hover .estomac-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.pancreas {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.pancreas .pancreas-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 685px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.pancreas-text {
+	margin-left: 0px;
+	bottom: 195px;
+	left: 850px
+}
+
+.pancreas .pancreas-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.pancreas:hover .pancreas-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.intestingrele {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.intestingrele .intestingrele-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 690px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.intestingrele-text {
+	margin-left: 0px;
+	bottom: 135px;
+	left: 850px
+}
+
+.intestingrele .intestingrele-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.intestingrele:hover .intestingrele-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.colon {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.colon .colon-text {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	margin-left: 690px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.colon-text {
+	margin-left: 0px;
+	bottom: 180px;
+	left: 850px
+}
+
+.colon .colon-text::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.colon:hover .colon-text {
 	visibility: visible;
 	opacity: 1;
 }

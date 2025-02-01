@@ -28,16 +28,16 @@
 		
 		<div id="contactform">
 		
-		<label for="nom">Nom :</label>
+		<label for="nom"><b>Nom :</b></label>
 		<input type="text" id="nom" name="firstname" required>
 
-		<label for="prenom">Prénom :</label>
+		<label for="prenom"><b>Prénom :</b></label>
 		<input type="text" id="prenom" name="lastname" required>
 		
-		<label for="mail">E-mail :</label>
+		<label for="mail"><b>E-mail :</b></label>
 		<input type="text" id="mail" name="email" required>
 		
-		<label for="sujet">Votre message :</label>
+		<label for="sujet"><b>Votre message :</b></label>
 		<textarea id="sujet" name="sujet" style="height:200px" required></textarea>
 		
 		<input type="submit" value="Envoyer" onclick="envoyerMessage()" onsubmit="return validateForm()">
